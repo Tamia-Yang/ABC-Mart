@@ -120,7 +120,7 @@ header{
                                 display: block;
                                 width: 30px;
                                 height: 31px;
-                               background:url("img/comm_header_util_link.png") no-repeat left center;
+                               background:url("../img/comm_header_util_link.png") no-repeat left center;
                         
                             }
                         }
@@ -129,7 +129,7 @@ header{
                                 display: block;
                                 width:25px;
                                 height: 31px;
-                               background:url("img/comm_header_util_link.png") no-repeat right center;
+                               background:url("../img/comm_header_util_link.png") no-repeat right center;
                                  
                             }
                         }    
@@ -223,7 +223,7 @@ main{
                 .swiper-button-next{
                    right: 15%;
                    background:black;
-                   background-image: url("img/comm_layer_banner_arrow.png");
+                   background-image: url("../img/comm_layer_banner_arrow.png");
                    background-position:right;
                    background-size: cover;
                    width: 60px;
