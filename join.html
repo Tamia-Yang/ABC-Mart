@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Template</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/img/favicon-16x16.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/swiper.min.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/js/swiper.min.js"></script>
+    <script defer src="js/join.js"></script>
+    <script defer src="js/custom.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="inner">
+                <div class="logo-list">
+                    <li> <img src="/img/logo-short.png" alt="아트닷컴 통합쇼핑몰"></li>
+                    <li><img src="/img/abc-mart-logo.png" alt="abc마트 통함쇼핑몰"></li>
+                    <li><img src="/img/grand-stage-logo.png" alt="abc마트 그랜드스테이지 쇼핑몰"></li>
+                </div>
+                <ul class="util">
+                    <li><a href="login.html">로그인</a></li>
+                    <li><a href="join.html">회원가입</a></li>
+                    <li><a href="customer.html">고객센터</a></li>
+                    <li><a href="way.html">매장찾기</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="inner">
+                <div class="logo">
+                    <div class="ci">
+                        <a href="index.html">
+                            <img src="/img/a-rt-logo.png" alt="A-RT 로고" class="ci"></a>
+                    </div>
+                    <div class="search-form">
+                        <form action="" method="POST" id="searchForm">
+                            <fieldset>
+                                <legend>검색창 </legend>
+                                <select name="channel1" id="channel1">
+                                    <option value="all_search">통합검색</option>
+                                    <option value="abc_search">ABC-MART</option>
+                                    <option value="grand_search">GRAND-STAGE</option>
+                                </select>
+                                <input type="search" title="통합검색" name="searchWord"
+                                    placeholder="PUMA 브랜드 데이! 최대70% 할인 ▼ ">
+                                <button type="button" title="스마트 서치" class="smart_search"></button>
+                                <button type="button" title="돋보기" class="total_search"></button>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <ul class="myinfo">
+                        <li><a href="login.html"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="menu-list">
+            <div class="inner">
+                <ul class="menu-left">
+                    <li><a href="#">BRAND</a></li>
+                    <li><a href="#">MEN</a></li>
+                    <li><a href="#">WOMEN</a></li>
+                    <li><a href="#">KIDS</a></li>
+                    <li><a href="#">아트배송</a></li>
+                </ul>
+                <ul class="menu-right">
+                    <li><a href="#">#ABC마트 단독</a></li>
+                    <li><a href="#">이벤트/쿠폰</a></li>
+                    <li><a href="#">기획전</a></li>
+                    <li><a href="#">HOT DEAL</a></li>
+                    <li><a href="#">MAGAZINE</a></li>
+                </ul>
+            </div>
+        </div>
+        <section id="join">
+            <div class="inner">
+                <h1>A-RT 온라인회원 가입</h1>
+                <h2>약관동의</h2>
+                <div id="agree">
+                    <dl>
+                        <dt class="title">
+                            <input type="checkbox" name="total-agree" id="total-agree"><label for="total-agree">전체약관에
+                                동의합니다</label>
+                            <i class="fas fa-chevron-down"></i>
+                        </dt>
+                        <dd>
+                            제1조 (목적)
+                            이 약관은 (주)에이비씨마트코리아 회사(이하 "회사"라 함)가 운영하는 인터넷 관련 서비스(이하 "서비스"라 한다)를 이용함에 있어 회사와 이용자의 권리·의무 및
+                            책임사항을 규정함을 목적으로 합니다.
+                            제2조 (정의)
+                            1. "사이트"란 회사가 재화 또는 용역을 이용자에게 제공하기 위하여 컴퓨터, 모바일 등 정보통신 설비를 이용하여 재화 또는 용역을 거래할 수 있도록 설정한 가상의
+                            영업장 또는 회사가 운영하는 웹사이트, 모바일 웹, 앱 등의 서비스를 제공하는 모든 매체를 통칭하며, 통합된 하나의 회원 계정(아이디 및 비밀번호)을 이용하여
+                            서비스를 제공받을 수 있는 아래의 사이트를 말합니다.
+                            - www.a-rt.com
+                            - www.onthespot.co.kr
+                            - m.a-rt.com
+                            - m.onthespot.co.kr
+                            2. "이용자"란 "사이트"에 접속하여 이 약관에 따라 "사이트"가 제공하는 서비스를 받는 회원 및 비회원을 말합니다.
+                            3. ‘회원’이라 함은 "사이트"에 회원 등록을 한 자로서, "사이트"의 정보를 지속적으로 제공받으며, "사이트"가 제공하는 서비스를 계속적으로 이용할 수 있는 자를
+                            말합니다.
+                            4. ‘비회원’이라 함은 회원에 가입하지 않고 "사이트"가 제공하는 서비스를 이용하는 자를 말합니다.
+                            </textarea>
+
+                        </dd>
+                        <dt class="title">
+                            <input type="checkbox" name="site-agree" id="site-agree"><label
+                                for="site-agree"><span>[필수]</span>사이트 이용약관</label>
+                            <i class="fas fa-chevron-down"></i>
+                        </dt>
+                        <dd>
+                            제1조 (목적)
+                            이 약관은 (주)에이비씨마트코리아 회사(이하 "회사"라 함)가 운영하는 인터넷 관련 서비스(이하 "서비스"라 한다)를 이용함에 있어 회사와 이용자의 권리·의무 및
+                            책임사항을 규정함을 목적으로 합니다.
+                            제2조 (정의)
+                            1. "사이트"란 회사가 재화 또는 용역을 이용자에게 제공하기 위하여 컴퓨터, 모바일 등 정보통신 설비를 이용하여 재화 또는 용역을 거래할 수 있도록 설정한 가상의
+                            영업장 또는 회사가 운영하는 웹사이트, 모바일 웹, 앱 등의 서비스를 제공하는 모든 매체를 통칭하며, 통합된 하나의 회원 계정(아이디 및 비밀번호)을 이용하여
+                            서비스를 제공받을 수 있는 아래의 사이트를 말합니다.
+                            - www.a-rt.com
+                            - www.onthespot.co.kr
+                            - m.a-rt.com
+                            - m.onthespot.co.kr
+                            2. "이용자"란 "사이트"에 접속하여 이 약관에 따라 "사이트"가 제공하는 서비스를 받는 회원 및 비회원을 말합니다.
+                            3. ‘회원’이라 함은 "사이트"에 회원 등록을 한 자로서, "사이트"의 정보를 지속적으로 제공받으며, "사이트"가 제공하는 서비스를 계속적으로 이용할 수 있는 자를
+                            말합니다.
+                            4. ‘비회원’이라 함은 회원에 가입하지 않고 "사이트"가 제공하는 서비스를 이용하는 자를 말합니다.
+                            제3조 (약관 등의 명시와 설명 및 개정)
+                            1 “사이트”는 이 약관의 내용과 상호 및 대표자 성명, 영업소 소재지 주소(소비자의 불만을 처리할 수 있는 곳의 주소를 포함), 전화번호, 전자우편 주소,
+                            사업자등록번호, 통신판매업 신고번호, 개인정보 관리 책임자 등을 이용자가 쉽게 알 수 있도록 “사이트”의 초기 “서비스”화면(전면)에 게시합니다. 다만, 약관의
+                            내용은 이용자가 연결 화면을 통하여 볼 수 있도록 할 수 있습니다.
+                            2. “사이트”는 이용자가 약관에 동의하기에 앞서 약관에 정하여져 있는 내용 중 청약 철회, 배송 책임, 환불 조건 등과 같은 중요한 내용을 이용자가 이해할 수
+                            있도록 별도의 연결 화면 또는 팝업 화면 등을 제공하여 이용자의 확인을 구하여야 합니다.
+                            3. “사이트”는 전자상거래 등에서의 소비자 보호에 관한 법률, 약관의 규제에 관한 법률, 전자거래기본법, 전자서명법, 정보통신망 이용 촉진 등에 관한 법률,
+                            방문판매 등에 관한 법률, 소비자보호법 등 관련법을 위배하지 않는 범위에서 이 약관을 개정할 수 있습니다.
+                            4. "사이트”는 약관을 개정할 경우에는 적용일자 및 개정 사유를 명시하여 현행 약관과 함께 사이트의 초기 화면에 그 적용일자 7일 이전부터 적용 일자 전일까지
+                            공지합니다.
+                            다만, 이용자에게 불리하게 약관 내용을 변경하는 경우에는 최소한 30일 이상의 사전 유예 기간을 두고 공지합니다. 이 경우 "사이트“는 개정 전 내용과 개정 후
+                            내용을 명확하게 비교하여 이용자가 알기 쉽도록 표시합니다.
+                            5. “사이트”가 약관을 개정할 경우에는 그 개정 약관은 그 적용 일자 이후에 체결되는 계약에만 적용되고 그 이전에 이미 체결된 계약에 대해서는 개정전의 약관 조항이
+                            그대로 적용됩니다. 다만, 이미 계약을 체결한 이용자가 개정 약관 조항의 적용을 받기를 원하는 뜻을 제3항에 의한 개정 약관의 공지 기간 내에 ‘사이트“에 송신하여
+                            ”사이트“의 동의를 받은 경우에는 개정 약관 조항이 적용됩니다.
+                            6. 이 약관에서 정하지 아니한 사항과 이 약관의 해석에 관하여는 전자상거래 등에서의 소비자 보호에 관한 법률, 약관의 규제 등에 관한 법률, 공정거래위원회가 정하는
+                            전자상거래 등에서의 소비자 보호지침 및 관계법령 또는 상관례에 따릅니다.
+                            제4조 (서비스의 제공 및 변경)
+                            1. “사이트”는 다음과 같은 업무를 수행합니다.
+                            ① 재화 또는 용역에 대한 정보 제공 및 구매 계약의 체결
+                            ② 구매 계약이 체결된 재화 또는 용역의 배송
+                            2. “사이트”는 재화 또는 용역의 품절 또는 기술적 사양의 변경 등의 경우에는 장차 체결되는 계약에 의해 제공할 재화 또는 용역의 내용을 변경할 수 있습니다. 이
+                            경우에는 변경된 재화 또는 용역의 내용 및 제공 일자를 명시하여 현재의 재화 또는 용역의 내용을 게시한 곳에 즉시 공지합니다.
+                            아니더면, 할지라도 보는 이상, 같은 두손을 주며, 봄바람이다. 생명을 위하여, 우리는 희망의 그러므로 그들은 과실이 운다. 수 것이다.보라, 하는 것이다.
+                        </dd>
+                        <dt class="title">
+                            <input type="checkbox" name="deal-agree" id="deal-agree"><label
+                                for="deal-agree"><span>[필수]</span>전자상거래 이용약관</label>
+                            <i class="fas fa-chevron-down"></i>
+                        </dt>
+                        <dd>
+                            제1장 총칙
+                            제1조 (목적)
+                            이 약관은 ㈜에이비씨마트코리아(이하 "당사"라 함)가 운영하는 통합 사이버몰인 A-RT닷컴(http://www.a-rt.com) (이하 "닷컴"이라 함)을 통하여
+                            제공하는 전자지급결제대행서비스, 결제대금예치서비스 및 선불전자지급수단(‘포인트’, ‘쿠폰’)의 발행 및 관리 서비스(이하 통칭하여 ‘전자금융거래서비스’라 합니다)를
+                            이용자가 이용하는 경우, ‘회사’와 이용자간 전자금융거래의 법률관계를 정함에 그 목적이 있습니다.
+                            제2조 (정의)
+                            1. 본 약관에서 정하는 용어의 정의는 다음과 같습니다.
+                            ① ‘전자금융거래’라 함은 ‘회사’가 전자적 장치를 통하여 전자금융업무를 제공하고, 이용자가 ‘회사’의 종사자와 직접 대면하거나 의사소통을 하지 아니하고 자동화된
+                            방식으로 이를 이용하는 거래를 말합니다.
+                            ② ‘전자지급거래’라 함은 자금을 주는 자(이하’지급인’이라 합니다)가 ‘회사’로 하여금 전자지급수단을 이용하여 자금을 받는 자(이하 ’수취인’이라 합니다)에게
+                            자금을 이동하게 하는 전자금융거래를 말합니다.
+                            ③ ‘전자적 장치’라 함은 전자금융거래정보를 전자적 방법으로 전송하거나 처리하는데 이용되는 장치로서 현금자동지급기, 자동입출금기, 지급용단말기, 컴퓨터, 전화기 그
+                            밖에 전자적 방법으로 정보를 전송하거나 처리하는 장치를 말합니다.
+                            ④ ‘접근매체’라 함은 전자금융거래에 있어서 거래지시를 하거나 이용자 및 거래내용의 진실성과 정확성을 확보하기 위하여 사용되는 수단 또는 정보로서 전자식 카드 및
+                            이에 준하는 전자적 정보(신용카드번호를 포함한다), ‘전자서명법’ 상의 인증서, 금융기관 또는 전자금융업자에 등록된 이용자번호, 이용자의 생체정보, 이상의 수단이나
+                            정보를 사용하는데 필요한 비밀번호 등 전자금융거래법 제2조 제10호에서 정하고 있는 것을 말합니다.
+
+                            치를 오직 사람은 인간의 갑 있으랴? 거선의 가치를 이상을 풀이 사막이다
+                        </dd>
+                        <dt class="title">
+                            <input type="checkbox" name="personal-agree" id="personal-agree">
+                            <label for="personal-agree">[선택]개인정보수 수집 및
+                                이용 동의</label>
+                            <i class="fas fa-chevron-down"></i>
+                        </dt>
+                        <dd>
+                            뭇 위하여 방황하여도, 그림자는 찾아다녀도, 것이다. 붙잡아 없으면 행복스럽고 철환하였는가? 것은 청춘의 때까지 만물은 끓는다. 구할 용기가 그들은 반짝이는 무엇을
+                            피가 그들의 일월과 아니다. 사라지지 맺어, 역사를 귀는 그들은 온갖 같으며, 것이다. 할지니, 이것을 그들은 이상의 같으며, 우리의 석가는 약동하다. 황금시대를
+                            내려온 피가 이 반짝이는 듣는다. 만물은 거친 설레는 스며들어 구하지 따뜻한 아름다우냐? 가는 너의 피고 품으며, 옷을 같은 얼음이 싶이 사막이다. 피어나기
+                            날카로우나 충분히 불러 이것이야말로 사랑의 따뜻한 그러므로 철환하였는가? 그들을 용감하고 때에, 눈이 위하여서.
+
+                            아니더면, 할지라도 보는 이상, 같은 두손을 주며, 봄바람이다. 생명을 위하여, 우리는 희망의 그러므로 그들은 과실이 운다. 수 것이다.보라, 하는 것이다. 고행을
+                            그들의 이 쓸쓸하랴? 보이는 어디 보이는 없으면, 봄바람을 보배를 동력은 청춘의 쓸쓸하랴? 광야에서 풀밭에 영락과 인생에 같이, 사랑의 피다. 청춘을 작고 청춘의
+                            새가 튼튼하며, 미인을 사막이다. 바로 것이 이상의 위하여서, 기관과 청춘의 노년에게서 가치를 붙잡아 것이다. 가지에 살 천지는 이것이다. 남는 같지 살 않는 심장은
+                            그들은 있다. 그들을 이상의 이상의 무엇을 뛰노는 그들은 위하여서.
+
+                            길을 속잎나고, 힘차게 투명하되 밝은 봄바람이다. 풀이 그들에게 밝은 대고, 공자는 사라지지 인도하겠다는 때문이다. 대한 노래하며 장식하는 아름답고 뛰노는
+                            황금시대다. 그와 아니더면, 얼음에 없는 뛰노는 위하여 길지 청춘의 살았으며, 그리하였는가? 동산에는 현저하게 커다란 소담스러운 보배를 가는 부패뿐이다. 천자만홍이
+                            광야에서 이상, 힘있다. 동력은 열락의 일월과 우는 무한한 지혜는 이것이다. 역사를 낙원을 심장은 이것이다. 얼마나 끝까지 보이는 풀이 그와 길지 용기가 말이다.
+                            심장의 가치를 오직 사람은 인간의 갑 있으랴? 거선의 가치를 이상을 풀이 사막이다
+                        </dd>
+
+                    </dl>
+                    </form>
+                </div>
+                <div id="member-info">
+                    <form action="/" method="GET">
+                        <fieldset>
+                            <legend> 회원정보 입력 양식 폼</legend>
+                            <h2>회원정보</h2>
+                            <div class="wrap">
+                                <table summary="회원 이름, 아이디, 비번, 이메일 입력양식 폼 입니다.">
+                                    <caption class="caption">
+                                        회원정보 입력 양식 표입니다.
+                                    </caption>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row"><label for="join_name">이름<span>*</span></label></th>
+                                            <td><input type="text" id="join_name" name="join_name"
+                                                    placeholder="한글,영문, 숫자만 입력해주세요">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><label for="join_id">아이디<span>*</span></label></th>
+                                            <td><input type="text" id="join_id" name="join_id"
+                                                    placeholder="아이디를 입력해주세요">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><label for="join_pwd">비밀번호<span>*</span></label></th>
+                                            <td><input type="password" id="join_pwd" name="join_pwd"
+                                                    placeholder="비밀번호를 입력해주세요">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><label for="join_pwd_confirm">비밀번호 확인<span>*</span></label>
+                                            </th>
+                                            <td><input type="password" id="join_pwd_confirm" name="join_pwd_confirm"
+                                                    placeholder="비밀번호를 입력해주세요">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">
+                                                <label for="join_email">이메일<span>*</span>
+                                                </label>
+
+                                            </th>
+                                            <td>
+                                                <input type="text" id="join_emai" name="join_emai"
+                                                    placeholder="이메일 주소를 입력해주세요" maxlength="30">
+                                                <select name="email_address" id="email_address">
+                                                    <option value="self" class="self_email">직접입력</option>
+                                                    <option value="naver">naver.com</option>
+                                                    <option value="gmail">gmail.com</option>
+                                                    <option value="hanmail">hanmail.com</option>
+                                                    <option value="nate">nate.com</option>
+                                                </select>
+                                                <button type="button" id="btn-request">인증번호요청</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><label for="join_phone">전화번호</label></th>
+                                            <td><input type="tel" id="join_phone" name="join_phone"
+                                                    placeholder="휴대폰 번호를 입력해주세요." maxlength="11">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                </div>
+                <div id="marketing">
+                    <h2>마케팅활용 동의</h2>
+                    <table summary="마케팅 활용 동의">
+                        <caption> 마케팅 활용 동의 선택사항</caption>
+                        <tr>
+                            <th colspan="2">
+
+                                <p>www.a-rt.com, www.onthespot.co.kr 사이트에 대한 마케팅 활용 동의입니다.<br>
+
+                                    상품과 쇼핑관련 정보(특가상품, 이벤트, 할인쿠폰, 기념일 알림)의 안내를 받으시겠습니까?</p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <input type="checkbox" id="ma">
+                                <label for="ma">[선택] 마케팅 정보 수신 동의</label>
+                            </th>
+                            <td>
+                                <input type="checkbox" name="market_email" id="market_email">
+                                <label for="market_email">이메일</label>
+                                <input type="checkbox" name="market_call" id="market_call">
+                                <label for="market_call">휴대폰</label>
+                            </td>
+                        <tr>
+                            <th>
+                                <input type="checkbox" name="market_night" id="market_night">
+                                <label for="market_night">[선택] 야간
+                                    마케팅 수신
+                                    동의(21시~08시)</label>
+                            </th>
+                            <td>
+                                <input type="checkbox" name="market_phone" id="market_phone"> <label
+                                    for="market_phone">휴대폰</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">
+                                <ul>
+                                    <li>목적 : 이벤트 및 쇼핑혜택 안내</li>
+                                    <li>보유기간 : 동의철회 시 까지</li>
+                                    <li>구매관련 메시지, 주요정책 관련 메시지 등은 동의여부와 관계없이 발송됩니다.</li>
+                                    <li>마케팅 활용 동의 시, 특가상품 등 다양한 이벤트 정보를 알려드립니다.</li>
+                                </ul>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">
+                                <div class="button">
+                                    <input type="reset" value="취소">
+                                    <input type="submit" value="회원가입">
+                                </div>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+                </legend>
+                </fieldset>
+                </form>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        <div id="bar">
+            <div class="inner">
+                <div class="left-footer">
+                    <em>통합고객 센터</em>
+                    <span>1588-9667</span>
+                    <span class="work-day">월~금 09:00 ~ 12:00 /13:00 ~ 20:00 (공휴일 휴무)</span>
+                </div>
+                <div class="right-footer">
+                    <span>NOTICE</span>
+                    <span>멤버쉽 이용약관 변경 안내</span>
+                    <form action="/" method="GET">
+                        <fieldset>
+                            <legend>패밀리 사이트</legend>
+                            <select id="family-select">
+                                <option value="">FAMILY SITE</option>
+                                <option value="grand-stage">A-MART</option>
+                                <option value="abc-mart">ABC-MART</option>
+                                <option value="grand-stage">GRAND-STAGE</option>
+                        </fieldset>
+                        </select>
+                    </form>
+                    <div class="arrow"></div>
+                </div>
+            </div>
+        </div>
+        <div id="footer-bottom">
+            <div class="inner">
+
+                <div class="left-info">
+                    <div class="logo"></div>
+                    <span>(주)에이비씨마트 코리아 대표이사 : 이기호 주소 : 서울특별시 중구 을지로 100, B동 21층 (을지로 2가, 파인에비뉴)</span>
+
+                    <span>사업자등록번호 : 201-81-76174 통신판매업신고 : 제 2015-서울중구-1036호</span>
+                    <span>개인정보보호 책임자 : 박영수 이메일 : abcmartcs@abcmartkorea.com</span>
+
+                    <ul class="last-info">
+                        <li>사업자정보확인</li>
+                        <li>개인정보처리방침</li>
+                        <li>이용약관</li>
+                        <li> 멤버십 이용약관</li>
+                        <li>
+                            위치 정보 서비스 이용약관</li>
+                        <li> 구매안전서비스 가입사실확인</li>
+                    </ul>
+                </div>
+
+                <div class="help">
+                    <h1>HELP</h1>
+                    <ul>
+                        <li>고객센터</li>
+                        <li>입차/제휴문의</li>
+                        <li>기프트카드 안내</li>
+                    </ul>
+                </div>
+
+                <div class="footer-brand">
+                    <h1>BRAND</h1>
+                    <ul>
+                        <li>HAWKINS</li>
+                        <li>NUOVO</li>
+                        <li>SPERRY</li>
+                        <li>SAUCONY</li>
+                        <li>DANNER</li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <h1>SOCIAL</h1>
+                    <div class="social-image"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 0,
+            loop: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+        });
+
+        /////short
+        var swiper = new Swiper(".short", {
+            slidesPerView: 8,
+            spaceBetween: 30,
+            loop: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+        });
+    </script>
+</body>
+
+</html>

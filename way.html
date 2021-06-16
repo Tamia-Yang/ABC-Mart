@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Template</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/img/favicon-16x16.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/swiper.min.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
+    <script type="text/javascript"
+        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f7233095aeab965e4d35d9143e75ae02"></script>
+    <script src="js/jquery.mCustomScrollbar.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/js/swiper.min.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script defer src="js/way.js"></script>
+    <script defer src="js/custom.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="inner">
+                <div class="logo-list">
+                    <li> <a href="index.thml"><img src="/img/logo-short.png" alt="아트닷컴 통합쇼핑몰"></a></li>
+                    <li><img src="/img/abc-mart-logo.png" alt="abc마트 통함쇼핑몰"></li>
+                    <li><img src="/img/grand-stage-logo.png" alt="abc마트 그랜드스테이지 쇼핑몰"></li>
+                </div>
+                <ul class="util">
+                    <li><a href="login.html">로그인</a></li>
+                    <li><a href="join.html">회원가입</a></li>
+                    <li><a href="customer.html">고객센터</a></li>
+                    <li><a href="way.html">매장찾기</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="inner">
+                <div class="logo">
+                    <div class="ci">
+                        <a href="index.html">
+                            <img src="/img/a-rt-logo.png" alt="A-RT 로고" class="ci"></a>
+                    </div>
+                    <div class="search-form">
+                        <form action="/" method="POST" id="searchForm">
+                            <fieldset>
+                                <legend>검색창 </legend>
+                                <select name="channel1" id="channel1">
+                                    <option value="all_search">통합검색</option>
+                                    <option value="abc_search">ABC-MART</option>
+                                    <option value="grand_search">GRAND-STAGE</option>
+                                </select>
+                                <input type="search" title="통합검색" name="searchWord"
+                                    placeholder="PUMA 브랜드 데이! 최대70% 할인 ▼ ">
+                                <button type="button" title="스마트 서치" class="smart_search"></button>
+                                <button type="button" title="돋보기" class="total_search"></button>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <ul class="myinfo">
+                        <li><a href="login.html"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="menu-list">
+            <div class="inner">
+                <ul class="menu-left">
+                    <li><a href="#">BRAND</a></li>
+                    <li><a href="#">MEN</a></li>
+                    <li><a href="#">WOMEN</a></li>
+                    <li><a href="#">KIDS</a></li>
+                    <li><a href="#">아트배송</a></li>
+                </ul>
+                <ul class="menu-right">
+                    <li><a href="#">#ABC마트 단독</a></li>
+                    <li><a href="#">이벤트/쿠폰</a></li>
+                    <li><a href="#">기획전</a></li>
+                    <li><a href="#">HOT DEAL</a></li>
+                    <li><a href="#">MAGAZINE</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="map-wrap">
+            <div class="inner">
+                <h1>매장찾기</h1>
+                <div class="wrap">
+                    <form action="/" name="shop-search">
+                        <fieldset>
+                            <legend>매장찾기</legend>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th rowspan="2" class="store-search">매장검색</th>
+                                        <th>
+                                            <select>
+                                                <option value="">광역시/전체</option>
+                                                <option value="">강원도</option>
+                                                <option value="">경기도</option>
+                                                <option value="">경상남도</option>
+                                                <option value="">경상북도</option>
+                                                <option value="">대구광역시</option>
+                                                <option value="">광주광역시</option>
+                                                <option value="">울산광역시</option>
+                                                <option value="">서울특별시</option>
+                                            </select>
+                                        </th>
+                                        <th>
+                                            <select>
+                                                <option value="">시/군/구 전체</option>
+
+                                            </select>
+                                        </th>
+                                        <th>
+                                            <select>
+                                                <option value="">ABC-MART</option>
+
+                                            </select>
+                                        </th>
+                                        <th rowspan="2"><button type="submit" class="btn-search">검색</button>
+                                        </th>
+                                    <tr>
+
+                                        <td>
+                                            <select>
+                                                <option value="">매장제공 서비스 전체</option>
+                                                <option value="">교환/환불/AS</option>
+                                                <option value="">포인트사용</option>
+                                                <option value="">의류판매</option>
+                                                <option value="">기프트카드사용</option>
+                                                <option value="">골프화판매</option>
+                                                <option value="">축구화판매</option>
+                                            </select>
+                                        </td>
+                                        <td colspan="2">
+                                            <input type="search" name="town-search" id="town-search"
+                                                placeholder=" 지역/매장명을 입력하세요.">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </fieldset>
+                    </form>
+                    <ul class="service-list">
+                        <li>교환/환불/AS</li>
+                        <li>포인트사용</li>
+                        <li>의류판매</li>
+                        <li>기프트카드사용</li>
+                        <li>(구)디지털상품권</li>
+                        <li>골프화판매</li>
+                        <li>축구화판매</li>
+                    </ul>
+                    <div class="map-wrap content">
+                        <div class="mCustomScrollbar" data-mcs-theme="dark-thin">
+                            <ul class="branch">
+                                <li data-index="0" class="on">
+
+                                    <span>STANDARD</span>
+                                    <a href="#">
+                                        <h3>롯데백화점 수원점</h3>
+                                        <p>경기도 수원시 권선구 서둔동 세화로 134</p>
+                                    </a>
+                                </li>
+                                <li data-index="1">
+                                    <span>STANDARD</span>
+                                    <a href="#">
+                                        <h3>수원역점</h3>
+                                        <p>경기도 수원시 팔달구 향교로 20-1 KR</p>
+                                    </a>
+                                </li>
+                                <li data-index="2">
+                                    <span>GRAND STAGE</span>
+                                    <a href="#">
+                                        <h3>수원AK점</h3>
+                                        <p>경기도 수원시 팔달구 덕영대로 924 KR ABC-MART <br>GS 수원AK점 AK&몰 6층</p>
+                                    </a>
+                                </li>
+                                <li data-index="3">
+                                    <span>STANDARD</span>
+                                    <h3>수원롯데몰점</h3>
+                                    <a href="#">
+                                        <p>권선구 서둔동 296-77번지 1층 수원시 경기도 KR</p>
+                                    </a>
+                                </li>
+                                <li data-index="4">
+                                    <span>STANDARD</span>
+                                    <h3>수원 세류역점</h3>
+                                    <a href="#">
+                                        <p>권선구 서둔동 296-77번지 1층 수원시 경기도 KR</p>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div id="map" style="width:635px;height:500px;"></div>
+                    </div>
+                </div>
+                <div class="new-store">
+                    <h3>신규 매장정보</h3>
+                    <h1>ST김해롯데아울렛점 </h1>
+                    <P>경남 김해시 장유로 469 2층 (신문동, 김해관광유통단지 1B 4L번지) ABC-MART ST 김해롯데아울렛점 </P>
+                    <P><span>TEL. </span>055-900-2257
+                        <span>OPEN</span> 11:00 ~ 21:00 <br>
+                        <span>OPEN DATE.</span> 2021.05.14
+                    </P>
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div id="bar">
+            <div class="inner">
+                <div class="left-footer">
+                    <em>통합고객 센터</em>
+                    <span>1588-9667</span>
+                    <span class="work-day">월~금 09:00 ~ 12:00 /13:00 ~ 20:00 (공휴일 휴무)</span>
+                </div>
+                <div class="right-footer">
+                    <span>NOTICE</span>
+                    <span>멤버쉽 이용약관 변경 안내</span>
+                    <form action="">
+                        <fieldset>
+                            <legend>패밀리 사이트</legend>
+                            <select id="family-select">
+                                <option value="">FAMILY SITE</option>
+                                <option value="grand-stage">A-MART</option>
+                                <option value="abc-mart">ABC-MART</option>
+                                <option value="grand-stage">GRAND-STAGE</option>
+
+                        </fieldset>
+                        </select>
+                    </form>
+                    <div class="arrow"></div>
+                </div>
+            </div>
+        </div>
+        <div id="footer-bottom">
+            <div class="inner">
+
+                <div class="left-info">
+                    <div class="logo"></div>
+                    <span>(주)에이비씨마트 코리아 대표이사 : 이기호 주소 : 서울특별시 중구 을지로 100, B동 21층 (을지로 2가, 파인에비뉴)</span>
+
+                    <span>사업자등록번호 : 201-81-76174 통신판매업신고 : 제 2015-서울중구-1036호</span>
+                    <span>개인정보보호 책임자 : 박영수 이메일 : abcmartcs@abcmartkorea.com</span>
+
+                    <ul class="last-info">
+                        <li>사업자정보확인</li>
+                        <li>개인정보처리방침</li>
+                        <li>이용약관</li>
+                        <li> 멤버십 이용약관</li>
+                        <li>
+                            위치 정보 서비스 이용약관</li>
+                        <li> 구매안전서비스 가입사실확인</li>
+                    </ul>
+                </div>
+
+                <div class="help">
+                    <h1>HELP</h1>
+                    <ul>
+                        <li>고객센터</li>
+                        <li>입차/제휴문의</li>
+                        <li>기프트카드 안내</li>
+                    </ul>
+                </div>
+
+                <div class="footer-brand">
+                    <h1>BRAND</h1>
+                    <ul>
+                        <li>HAWKINS</li>
+                        <li>NUOVO</li>
+                        <li>SPERRY</li>
+                        <li>SAUCONY</li>
+                        <li>DANNER</li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <h1>SOCIAL</h1>
+                    <div class="social-image"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 0,
+            loop: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+        });
+
+        /////short
+        var swiper = new Swiper(".short", {
+            slidesPerView: 8,
+            spaceBetween: 30,
+            loop: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+        });
+    </script>
+</body>
+
+</html>

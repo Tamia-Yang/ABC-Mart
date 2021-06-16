@@ -1,0 +1,192 @@
+#login {
+    width: 600px;
+    height: 500px;
+    margin: 100px auto;
+    position:relative;
+    margin-bottom: 200px;
+ 
+
+        h1{
+            text-align: center;
+            font:bold 30px/1 'Noto Sans KR';
+            padding-bottom: 30px;
+        }
+        
+        dl{
+            border-top:none;
+
+             // 공통 디자인
+
+             a{
+                 color:#555;
+                padding: 5px 50px;
+             }
+            input[type="text"], input[type="password"]{  
+                border:none;
+                border-bottom: 1px solid #ccc;
+                width: 600px;
+                height: 50px;
+                position:relative; 
+                font-size: 15px; 
+                padding-left: 40px;   
+                box-sizing: border-box;
+                outline: none;
+                line-height: 50px;
+                                
+                }
+                .fa-user{
+                    position:absolute;
+                    top:115px;
+                    left:10px;
+                    font-size: 20px;
+                    color:#666;
+                    z-index: 2
+                    
+                }
+                .fa-lock {
+                    position:absolute;
+                    top:165px;
+                    left:10px;
+                    font-size: 20px;
+                    color:#666;
+                    z-index: 2;
+                }
+                input[type=submit] {
+                    width: 100%;
+                    padding: 20px 20px;
+                    font-size: 14px;
+                    background:black; 
+                    color: white;
+                    border:0 none;
+                    cursor:pointer;
+                    margin:25px 0;
+                
+                }
+
+                // 공통 디자인 여기까지.
+
+            .memberLogin, .certified{
+                width: 630px;
+                position:absolute;
+                top:100px;
+                text-align: center;
+                color:#444;
+                box-sizing: border-box;
+                font:normal 15px/50px  'Noto Sans KR';
+                width: calc(100% / 2);
+                left:calc((100% / 2)*0);
+                height: 50px;
+                border:1px solid #666;
+                border-bottom:3px solid black;
+                z-index: 3;
+
+                &.on{
+                    border:3px solid black;
+                    border-bottom:none;
+                }             
+            }
+
+            #memberLogin{  
+                top: 100px;
+                position:absolute;
+                padding-top: 100px;
+                border: 1px solid #ccc;
+                display: none;
+
+                &.on{
+                    display: block;
+                }
+                
+              
+                        #btn-checkbox{
+                            margin: 10px 5px;
+                        
+                        }
+                        #find{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            li{
+                                float: left;
+                                padding: 0 10px;
+                                font-size: 13px;
+                                color:#666;
+                            } 
+                        }
+            
+                        .wrap{  
+                            padding-top: 40px;
+                            padding-bottom: 5px;
+                            display: flex;
+                            justify-content: space-evenly;
+                            align-items: center;
+                            font-size: 14px;
+                            color:#666;
+                            
+                            .naver-icon{     
+                                background-image: url(/img/btn_icon_sns.png);   
+                                background-color: transparent;
+                                background-repeat: no-repeat;
+                                background-position: -9px;
+                                width: 20px;
+                                height: 20px;
+                                border:none;  
+                                
+                            }
+                            .face-icon{
+                                background-color: transparent;
+                                background-image: url(/img/btn_icon_sns.png);
+                                background-repeat: no-repeat;
+                                background-position: 0px;
+                                width:9px;
+                                height: 20px;
+                                border:none;
+                        
+                            }
+                            .kakao-icon{
+                                background-color: transparent;
+                                background-image: url(/img/btn_icon_sns.png);
+                                background-repeat: no-repeat;
+                                background-position: -29px;
+                                width: 20px;
+                                height: 20px;
+                                border:none;
+                            } 
+                    
+                        }
+           
+            } 
+    
+            .certified{
+                    left:calc((100% / 2)*1) ;
+
+                    &.on{
+                        border:3px solid black;
+                        border-bottom:none;
+                    } 
+            }
+            #certified {
+                top: 100px;
+                position:absolute;
+                padding-top: 100px;
+                border: 1px solid #ccc;
+                display: none;
+
+                &.on{
+                    display:block;
+                } 
+                input[type="submit"]{
+                        margin-top: 50px;
+                    
+                }
+                .text {
+                    font-size: 13px;
+                    text-align: center;
+                    padding-top: 20px;
+                    padding-bottom:30px;
+                    color:#666;
+                }
+            }       
+        }
+}

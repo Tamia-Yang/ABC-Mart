@@ -1,0 +1,249 @@
+#join   {
+
+    h1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        padding-top: 100px;
+
+    }
+    h2{
+        text-align: left;
+        font-size: 22px;
+        font-weight: 400;
+        padding-top: 100px;
+        padding-bottom: 6px;
+        
+    }
+    .inner{
+        width: 800px;
+        margin: 0 auto;
+
+        legend, caption {
+            width:1px;
+            height: 1px; 
+            font-size: 1px;
+            overflow: hidden;
+ 
+        }
+       
+        #agree{
+            border-top:2px solid #111;
+            margin-bottom: 50px;
+            input{
+                width: 15px;
+                height:15px;
+              
+            }
+            dl{
+                dt{
+                    padding: 22px 0;
+                    border-bottom: 1px solid #d5d5d5;
+                    &.on .fas{
+                        transform: rotate(180deg);
+                    }
+
+                    &:first-child{
+                        font-weight: 600;
+                        font-size: 16px;
+                    }
+
+                    .fas{
+                        float: right;
+                        padding: 0 10px;
+                        color:#888;
+                        
+                    }
+
+                  label {
+                      padding:0 6px;
+                  }
+                }
+                    span{
+                        color: red;
+                        padding: 0 5px;
+                    }
+                    dd{
+                        color: #555;
+                        font-size: 14px;
+                        display: none;   
+                    }
+              
+            }
+            h2{
+                padding-top: 20px;
+
+            }
+            
+        }
+        #member-info  {
+            font-size: 15px;
+            
+            h2{
+                padding-top:30px;
+                padding-bottom:6px;
+            }
+            .wrap {
+                padding: 50px 0;
+                padding-bottom: 70px;
+                border-top: 2px solid #111;
+                border-bottom: 2px solid #d5d5d5;
+            }
+    
+            #btn-request {
+                width: 120px;
+                height: 40px;
+                background-color: white;
+                color:#111;
+                border:1px solid #111;
+                outline: none;
+                font-size: 14px;
+            }
+            table{
+                width: 100%;
+                border-collapse: collapse;    
+                padding-top: 100px;
+                 
+                    input{
+                        padding: 2px 10px;
+                        width: 400px;
+                        border: none;
+                        height: 42px;
+                        line-height: 38px;
+                        outline: none;
+                        margin-top: 10px;
+                 
+                        &::placeholder{
+                            color:rgb(165, 165, 165);
+                                    
+                        }
+                    }
+
+                        select {
+                            width: 150px;
+                            height: 42px;
+                            border-color: #d5d5d5;    
+                            color:#555;  
+                        }
+                
+                   span{
+                        color: red;
+                    }
+                
+                    th{
+                        width: 12%;
+                        text-align: left;
+                        color:#555;
+                        height: 50px;
+              
+                    }
+                    td{
+                    
+                        border-bottom: 1px solid #d5d5d5;
+                        line-height: 30px;
+                        height: 50px;
+                        
+                        .btn-request{
+                            width: 120px;
+                            height: 40px;
+                            outline: none;
+                            border: 1px solid #111;
+                            background-color: #fff;
+
+                            &:hover{
+                                background-color: #eee;
+                            }
+                    
+                        }
+                   
+            
+                    }
+            
+                }
+        }
+        #marketing{
+
+         
+            label{
+                padding: 0 6px;
+            }
+            h2{
+                padding-top: 70px;
+           
+            }
+            table{
+                width: 100%;
+                border-top: 2px solid #111;
+                font-family: 'Montserrat', sans-serif;
+
+                 
+                th{
+                    width: 50%;
+                    padding:20px 0;
+                    text-align: left;
+                    font-size: 15px;
+                    color:#555;  
+                    border-bottom: 2px solid #d5d5d5;
+
+                    &:last-child{
+                        padding-top: 5px;
+                        border-bottom: none;
+                    }
+
+                    .button{
+                        margin-top: 30px;
+                        margin-bottom: 130px;
+                        text-align: center;  
+                        font-size: 17px;
+
+                        input[type="reset"]{
+                            width: 170px;
+                            height: 50px;
+                            color: white;
+                            background-color: #777;
+                            border: none;
+                            outline: none;
+                            margin:0 5px;
+                            font-weight: 600;
+                        }
+                        input[type="submit"]{
+                            width: 170px;
+                            height: 50px;
+                            color: white;
+                            background-color: #111;
+                            border: none;
+                            outline: none;
+                            margin:0 5px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+
+                td {
+                    font-size: 15px;
+                    border-bottom: 2px solid #d5d5d5;
+
+               
+                }
+             
+                #market_call{
+                    margin-left: 25px;
+                }
+                ul {
+                    li{
+                        font-size: 12px;
+                        color:#aaa;
+                        line-height: 17px;
+                        font-family: 'Montserrat', sans-serif;
+                  
+                        
+                    }
+                }
+           
+                
+
+               
+            }
+        }
+    }
+}

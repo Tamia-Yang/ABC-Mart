@@ -1,0 +1,870 @@
+@charset "utf-8";
+@import "reset";
+@import "login";
+@import "join";
+@import "way";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+
+}
+h1{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+header{
+    .header-top{
+        padding-top:4px;
+        border-bottom: 1px solid #ddd;
+    .inner{
+        width: 1180px;
+        height: 40px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+            .logo-list {
+                &::after{
+                    content: '';
+                    display: block;
+                    clear: both;
+                }
+                li{
+                    float: left;
+                    padding: 0 12px;
+                    position:relative;
+                    a{
+                        font-family: 'Noto Sans KR', sans-serif;
+                    }
+
+                    &:first-child::after {
+                        display: none;
+                    }
+
+                    &::after{
+                        content: '';
+                        display: block;
+                        width: 1px;
+                        height: 13px;
+                        position:absolute;
+                        top: 8px;
+                        left: 0px;
+                        background-color: #ccc;
+                     
+                    }
+                }
+                
+            }      
+            .util{
+                li{
+                    float: left;
+                    padding: 0 12px;
+                    a{
+                        font-family: 'Noto Sans KR', sans-serif;
+                        font-size: 13px;
+                        color: #666;
+                    }
+                }
+            }
+     
+        }
+ 
+    }
+    .header-bottom{
+        height: 97px;
+
+        &::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .inner{
+            line-height: 97px;
+            position: relative;
+            height: 97px;
+            
+            .logo{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .ci{
+                    img{
+                        vertical-align: middle;
+                    }
+                }
+                
+                .myinfo {
+                    ::after{
+                        content: '';
+                        display: block;
+                        clear: both;
+                    }
+                    li{
+                        float: left;
+                        padding: 0 13px;
+        
+                        &:first-child{
+                            a{
+                                display: block;
+                                width: 30px;
+                                height: 31px;
+                               background:url(/img/comm_header_util_link.png) no-repeat left center;
+                        
+                            }
+                        }
+                        &:nth-child(2){
+                            a{
+                                display: block;
+                                width:25px;
+                                height: 31px;
+                               background:url(/img/comm_header_util_link.png) no-repeat right center;
+                                 
+                            }
+                        }    
+                    
+                    }
+                 
+                }
+            }
+        
+        .search-form{
+
+            select{
+                border: none;
+                width: 126px;
+                height: 42px;
+                padding: 0 18px 0 11px;
+                
+            }
+            input[type="search"]{
+                border: none;
+               width: 270px;
+               &::placeholder{
+                font-size: 15px;
+                padding-left:10px;
+               }
+           
+            }
+            .smart_search{
+                background: url(/img/comm_header_icon_smart.png)no-repeat center center/cover;
+                width: 37px;
+                height: 42px;
+                vertical-align: middle;
+                border: none;
+
+                }
+            .total_search{
+                background:url(/img/comm_header_icon_search.png) no-repeat center center/cover;
+                width: 23px;
+                height: 22px;
+                border: none;
+                vertical-align: middle;   
+            
+            }
+                 
+        }
+    
+    }
+}
+
+}
+
+main{
+    #menu-list{
+        width: 100%;
+        background-color: #000;
+    
+        .inner{
+                display: flex;
+                justify-content: space-between;
+                
+                li{
+                    float: left;
+                    a{
+                        display: block;
+                        color: white;
+                        padding: 12px 16px;
+                        font-size: 16px;
+                        font-weight: 600;
+                        letter-spacing: 1px;
+    
+                        &:hover{
+                            color: #ffe100;
+                        }
+                    }
+                }
+        }
+    }
+    #visual {
+        .swiper-container{
+            width: 100%;
+            height: 500px;
+            position: relative;
+ 
+                .swiper-button-next, .swiper-button-prev{
+                    background-color: black;
+                    width:50px;
+                    height:50px;
+                    position:absolute;
+                        
+                }
+                .swiper-button-next{
+                   right: 15%;
+                   background:black;
+                   background-image: url(/img/comm_layer_banner_arrow.png);
+                   background-position:right;
+                   background-size: cover;
+                   width: 60px;
+                   height: 60px;
+                 
+                }
+                .swiper-button-prev{
+                    left: 15%;
+                    background:black;
+                    background-image: url(/img/comm_layer_banner_arrow.png) ;
+                    width: 60px;
+                    height: 60px;
+                    background-position:left;
+                }
+            .swiper-wrapper{
+                width: 100%;
+                height: 100%;
+
+                .s1{
+                    background:url(/img/sw1.jpg) no-repeat center center/cover;
+                }
+                .s2{
+                    background:url(/img/sw2.jpg) no-repeat center center/cover;
+                }
+                .s3{
+                    background:url(/img/sw3.jpg) no-repeat center center/cover;
+                }
+                .s4{
+                    background:url(/img/sw4.jpg) no-repeat center center/cover;
+                }
+         
+                .s5{
+                    background:url(/img/sw5.jpg) no-repeat center center/cover;
+                }
+         
+                .s6{
+                    background:url(/img/sw6.jpg) no-repeat center center/cover;
+                }
+                
+                .s7{
+                    background:url(/img/sw7.jpg) no-repeat center center/cover;
+                }
+         
+                .s8{
+                    background:url(/img/sw8.jpg) no-repeat center center/cover;
+                }         
+            }
+
+        }
+    }
+    #best-brand{
+        position:relative;
+        .inner{
+            width: 1180px;
+            margin: 0 auto;
+            overflow: hidden;
+      
+            h1{
+                padding-top: 120px;
+                padding-bottom:30px;
+                text-align: center;
+            }
+            .brand-bottom-banner{
+                width: 100%;
+                position:relative;
+
+              
+                img{
+                    position:absolute;
+                    left:0;
+                    top:0;
+                }
+            }
+            .brand-list{
+                padding-top: 250px;
+                width: 1180px;
+                height: 450px;
+        
+                .wrap{
+                    width: calc((100%-45px) / 4);
+                    height: inherit;
+                    float: left;
+                    padding-left: 15px;
+                    box-sizing: border-box;
+
+                    &:nth-of-type(1){
+                      padding:0;
+                    }
+                    &:nth-of-type(4){
+                    
+                    }
+                 
+                    .text{
+                        padding-top: 10px;
+                        width: 100%;
+                        height: 200px;
+                        color:#444;
+                        font-family: 'Montserrat', sans-serif;
+
+                        .coupon{
+                            background:url(/img/coupon.gif) no-repeat left center cover;
+                            width: 61px;
+                            height: 30px;
+                        }
+
+                        span{
+                            padding-top: 10px;
+                            color:#666;
+                        }
+                        h2, h3{
+                            font-size: 16px;
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: 600;
+                        }
+                        p{
+                            padding-top: 25px;
+                            font-size: 20px;;
+                            float: left;
+                           
+                        }
+                      
+                        span{
+                            display: block;
+                            font-size: 13px;
+                        }
+                        .regular-price{
+                            font-size: 15px;
+                    
+                            padding-top:12px;
+                            text-decoration: line-through;
+                        }
+                        .price{
+                            display: inline-block;
+                            font-weight: 600;
+                            font-size: 20px;
+                            color: rgb(255, 56, 56);
+                        }
+                        em{
+                            display: block;
+                            font-size: 15px;
+                            font-style: normal;
+                            text-decoration: none;
+                            padding-top: 25px;
+                            color: rgb(255, 56, 56);
+                        }
+                    }
+                    .brand{
+                        width:100%;
+                        height: 285px;
+                                            
+                    }
+                    .new-brand-1{
+                        background:url(/img/best-brand-1.jpg) no-repeat center center/cover;
+        
+                    }
+                    .new-brand-2{
+                        background:url(/img/best-brand-2.jpg)no-repeat center center/cover;   
+                      
+                    
+                    }
+                    .new-brand-3{
+                        background:url(/img/best-brand-3.jpg) no-repeat center center/cover;
+                    
+    
+                    }
+                    .new-brand-4{
+                        background:url(/img/best-brand-4.jpg)no-repeat center center/cover;      
+            
+                    }
+           
+                }
+            }
+      
+        }
+    }
+    #display{
+            &::after{
+                content: '';
+                display: block;
+                clear: both;
+            }
+            .wrap:nth-of-type(1){
+                float:left;
+                display: inline-block;
+                width:50%;
+                height: 250px;
+                position:relative;
+                overflow: hidden;
+    
+                a{ 
+                    width: 100%;
+                    height: 200px;             
+                    display: inline-block;
+                    background-color:  #d7edff;
+                    position: absolute;
+                    bottom:0;
+
+                    img{
+                        position:absolute;
+                        bottom:0;
+                        right:0;
+                    }
+                
+                }
+            }
+            .wrap:nth-of-type(2){
+                float:right;
+                display: inline-block;
+                width:50%;
+                height: 250px;
+                position:relative;
+                overflow: hidden;
+    
+                a{ 
+                    width: 100%;
+                    height: 200px;           
+                    display: inline-block;
+                    background : #e1f2db;
+                    position: absolute;
+                    bottom:0;
+
+                    img{
+                        position:absolute;
+                        bottom:0;
+                        left:0;
+                    }
+                
+                }
+            }
+  
+      
+    }
+    #magazine{
+        margin-top: 120px;
+
+        .inner{
+            width: 1180px;
+            height: 450px;
+            margin: 0 auto;
+
+                &::after{
+                    content: '';
+                    display: block;
+                    clear: both;
+                }
+           
+                .left-picture{
+                    width: calc(100% / 3);
+                    height:450px;
+                    background:url(/img/magazine-2.jpg) no-repeat center center/cover;
+                    float: left;
+                    box-sizing: border-box;
+                }
+                .center-picture{
+                    width: calc(100% / 3);
+                    height: 400px;
+                    float: left;
+                    box-sizing: border-box;
+
+                    .textBox{
+                        width: 100%;
+                        height: 250px;
+                        margin-left:10px;  
+
+                        span{
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 16px;
+                        }
+                        h2{
+                            font-size: 36px;
+                            font-weight: 700;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                      
+                        p{
+                            font-size: 14px;
+                            color:#555;
+                            padding-top: 14px;
+                        }
+                        .view-more{
+                            width: 360px;
+                            background-color: #000;
+                            color: white;
+                            line-height:40px;
+                            margin-top: 32px;
+                            text-align: center;
+                                a{
+                                    color: white;
+                                    padding: 20px 110px;
+                                }
+
+                            &:hover{
+                                background-color: rgb(0, 205, 241);
+                                color: black;
+                            }
+                            &:hover .fas{
+                                color: black;
+                            }
+
+                            
+                            .fas{
+                                color: white;
+                                padding-left: 10px;
+                            
+                            }
+                            
+                        }
+                    
+                    }
+                    .fuma-shoes{
+                        width: 45%;
+                        height:200px;
+                        background: url(/img/magazine-3.jpg) no-repeat center center/cover;
+                        float: left;
+                        box-sizing: border-box;
+                        margin-left:10px;                    
+                    }
+                    .hand-shoes{
+                        width: 45%;
+                        height:200px;
+                        background: url(/img/magazine-4.jpg) no-repeat center center/cover;
+                        float: left;
+                        box-sizing: border-box;
+                        margin: 0 10px 
+                    }
+                }
+                .right-picture{
+                    width: calc(100% / 3);
+                    height: 450px;
+                    float: left;
+                    box-sizing: border-box;
+                    background: url(/img/magazine-5.jpg) no-repeat center center/cover;
+              
+                }     
+        }
+    }
+    #video{
+        .container{
+                position:relative;
+                left: 35%;
+                top: 100px;
+        }
+    }
+    #sns{
+        margin-top: 100px;
+        h1{
+            text-align: center;
+            padding-top: 120px;
+            padding-bottom:25px;
+        }
+        #rolling-short-banner{
+            padding-top: 20px;
+            margin-bottom: 120px;
+
+            .swiper-container.short{
+                width: 100%;
+                height: 100%;
+   
+                .swiper-wrapper{
+                    width: 100%;
+                    height: 100%;
+
+                    .swiper-slide{
+                        height: 285px;
+                        overflow: hidden;
+                        transition:all 0.3s;      
+                    }
+                    .short1{
+                        background:url(/img/rolling_short1.jpg) no-repeat center;
+                        &:hover {
+                            transform: scale(1.4);
+                                
+                        }
+                    }
+                    .short2{
+                        background:url(/img/rolling_short2.jpg) no-repeat center;
+                        overflow: hidden;
+                        &:hover {
+                            transform: scale(1.4);
+                        }
+                    }
+                    .short3{
+                        background:url(/img/rolling_short3.jpg) no-repeat center;
+
+                        &:hover {            
+                            transform: scale(1.4);
+                        }
+                    }
+                    .short4{
+                        background:url(/img/rolling_short4.jpg) no-repeat center;
+             
+                        &:hover {
+                    
+                            transform: scale(1.4);
+                        }
+                    }
+                    .short5{
+                        background:url(/img/rolling_short5.jpg) no-repeat center;
+                    
+                        &:hover {
+                            transform: scale(1.4);
+                        }
+                    }
+                    .short6{
+                        background:url(/img/rolling_short6.jpg) no-repeat center;
+                     
+                        &:hover {
+                            transform: scale(1.4);
+                        }
+                    }
+                    .short7{
+                        background:url(/img/rolling_short7.jpg) no-repeat center;
+                  
+                        &:hover {
+                            transform: scale(1.4);
+                        }
+                    }
+                    .short8{
+                        background:url(/img/rolling_short8.jpg) no-repeat center;
+                        &:hover {  
+                            transform: scale(1.4);
+                        }
+                    }
+                    .short9{
+                        background:url(/img/rolling_short9.jpg) no-repeat center;
+                        &:hover {
+                            transform: scale(1.4);
+                        }
+                    }
+                    .short10{
+                        background:url(/img/rolling_short10.jpg) no-repeat center;
+                
+                        &:hover {
+                            transform: scale(1.4);
+                        }
+                    }
+                    .short11{
+                        background:url(/img/rolling_short11.jpg) no-repeat center;
+
+                        &:hover {
+                            transform: scale(1.4);
+                        }
+                    }
+              
+                }
+            }
+        }
+    }
+}
+
+footer{
+    #footer-top{
+        width: 1180px;
+        margin: 0 auto;
+
+            .pic{
+                margin-bottom: 50px;
+                &::before{
+                    content: '';
+                    display: block;
+                    background-color: #ccc;
+                    height:1px;
+                    width: 100%;
+                    margin: 50px 0;
+                }
+                img{
+                    
+                    width: 33.1%;
+           
+                }
+            }
+        }
+
+    #bar {
+        background-color:#f4f4f4;
+        width:100%;
+        height: 60px;
+        line-height: 50px;
+        .inner{
+            width: 1180px;
+            margin: 0 auto;
+            &::after{
+                content: '';
+                display: block;
+                clear: both;
+            }
+            
+            .left-footer{
+                float: left;
+                line-height: 60px;
+        
+                em{
+                    font-size: 15px;
+                    color:#444;
+                    font-style: normal;
+                    
+                }
+                span{
+                    font-size: 14px;
+                    padding-left: 10px;
+                    color:#666;
+                    
+                }
+                
+            }
+            .right-footer {
+                float: right;
+                line-height: 60px;
+                font-family: 'Montserrat', sans-serif;
+                span{
+                    font-size: 14px;
+                    padding: 0 10px;
+                }
+        
+                form{
+                    float: right;
+                    position:relative;
+                    top:-5px;
+                    
+                    legend {
+                        width:1;
+                        height:1;
+                        position:absolute;
+                        top:-999%;
+                    }
+                    select{
+                        border: none;
+                        outline: none;
+                        background-color: transparent;
+                        appearance:none;
+                        width: 100%;
+                        padding: 30px;
+
+                    }
+                    .arrow{
+                        background-image: url(/img/comm_footer_icon_family_site_arr.png);
+                        background-repeat: no-repeat;
+                        background-position: -18px;
+                        width: 18px;
+                        height: 18px;
+                        position:absolute;
+                        right:0;
+                        top: 38%;
+                    }
+                }
+                
+            }
+        }
+    }
+    #footer-bottom{
+        .inner{
+            padding-top: 30px;
+            width: 1180px;
+            height: 200px;
+
+            &::after{
+                content: '';
+                display: block;
+                clear: both;
+            }
+            .logo{
+                background-image: url(/img/logo-short.png);
+                width: 36px;
+                height: 28px;
+            }
+    
+            .left-info{
+                float: left;
+
+                span{
+                    display: block;
+                    font-size: 13px;
+                    color:#777;
+                    line-height: 2;         
+                }
+                .last-info {
+                    padding-top: 20px;
+                    li{
+                        float: left;
+                        font-size: 13px;
+                         color:#666;
+                         padding:0 10px;
+                    }
+                }
+            }
+            .help{
+                float: left;
+                padding-left: 30px;
+
+                h1{
+                    font-size: 14px;
+                    color:#333;
+                    font-weight: 600;
+                    padding-bottom:10px;
+
+                }
+                ul{
+                    li{
+               
+                        font-size: 13px;
+                        color:#777;
+                        line-height: 1.8;
+                    }
+                }
+            }
+            .footer-brand{
+                float: left;
+                padding-left: 50px;
+                h1{
+                    font-size: 14px;
+                    color:#333;
+                    font-weight: 600;
+                    padding-bottom:10px;
+        
+                    }
+                    ul{
+                        li{
+                          
+                            font-size: 12px;
+                            color:#777;
+                            line-height: 1.8;
+                        }
+                }
+            }
+            .social{
+                float: left;
+                padding-left: 50px;
+
+                h1{
+                    font-size: 14px;
+                    color:#333;
+                    font-weight: 600;
+                    padding-bottom: 15px;
+                }
+                .social-image{
+                    background-image: url(/img/comm_footer_social_link.png);
+                    width: 140px;
+                    height: 35px;
+                    
+                }
+           
+            }
+         }
+    }
+}
