@@ -223,7 +223,7 @@ main{
                 .swiper-button-next{
                    right: 15%;
                    background:black;
-                   background-image: url("../img/comm_layer_banner_arrow.png");
+                   background-image: url("img/comm_layer_banner_arrow.png");
                    background-position:right;
                    background-size: cover;
                    width: 60px;
@@ -233,7 +233,7 @@ main{
                 .swiper-button-prev{
                     left: 15%;
                     background:black;
-                    background-image: url("../img/comm_layer_banner_arrow.png") ;
+                    background-image: url("img/comm_layer_banner_arrow.png") ;
                     width: 60px;
                     height: 60px;
                     background-position:left;
@@ -243,16 +243,16 @@ main{
                 height: 100%;
 
                 .s1{
-                    background:url("../img/sw1.jpg") no-repeat center center/cover;
+                    background:url("img/sw1.jpg") no-repeat center center/cover;
                 }
                 .s2{
-                    background:url("../img/sw2.jpg") no-repeat center center/cover;
+                    background:url("img/sw2.jpg") no-repeat center center/cover;
                 }
                 .s3{
-                    background:url("../img/sw3.jpg") no-repeat center center/cover;
+                    background:url("img/sw3.jpg") no-repeat center center/cover;
                 }
                 .s4{
-                    background:url("../img/sw4.jpg") no-repeat center center/cover;
+                    background:url("img/sw4.jpg") no-repeat center center/cover;
                 }
          
                 .s5{
@@ -324,7 +324,7 @@ main{
                         font-family: 'Montserrat', sans-serif;
 
                         .coupon{
-                            background:url("../img/coupon.gif") no-repeat left center cover;
+                            background:url("img/coupon.gif") no-repeat left center cover;
                             width: 61px;
                             height: 30px;
                         }
@@ -376,21 +376,21 @@ main{
                                             
                     }
                     .new-brand-1{
-                        background:url("../img/best-brand-1.jpg") no-repeat center center/cover;
+                        background:url("img/best-brand-1.jpg") no-repeat center center/cover;
         
                     }
                     .new-brand-2{
-                        background:url("../img/best-brand-2.jpg")no-repeat center center/cover;   
+                        background:url("img/best-brand-2.jpg")no-repeat center center/cover;   
                       
                     
                     }
                     .new-brand-3{
-                        background:url("../img/best-brand-3.jpg") no-repeat center center/cover;
+                        background:url("img/best-brand-3.jpg") no-repeat center center/cover;
                     
     
                     }
                     .new-brand-4{
-                        background:url("../img/best-brand-4.jpg")no-repeat center center/cover;      
+                        background:url("img/best-brand-4.jpg")no-repeat center center/cover;      
             
                     }
            
@@ -473,7 +473,7 @@ main{
                 .left-picture{
                     width: calc(100% / 3);
                     height:450px;
-                    background:url("../img/magazine-2.jpg") no-repeat center center/cover;
+                    background:url("img/magazine-2.jpg") no-repeat center center/cover;
                     float: left;
                     box-sizing: border-box;
                 }
@@ -648,20 +648,20 @@ main{
                         }
                     }
                     .short9{
-                        background:url("../img/rolling_short9.jpg") no-repeat center;
+                        background:url("img/rolling_short9.jpg") no-repeat center;
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short10{
-                        background:url("../img/rolling_short10.jpg") no-repeat center;
+                        background:url("img/rolling_short10.jpg") no-repeat center;
                 
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short11{
-                        background:url("../img/rolling_short11.jpg") no-repeat center;
+                        background:url("img/rolling_short11.jpg") no-repeat center;
 
                         &:hover {
                             transform: scale(1.4);
@@ -759,7 +759,7 @@ footer{
 
                     }
                     .arrow{
-                        background-image: url(/img/comm_footer_icon_family_site_arr.png);
+                        background-image: url("img/comm_footer_icon_family_site_arr.png");
                         background-repeat: no-repeat;
                         background-position: -18px;
                         width: 18px;
@@ -785,7 +785,7 @@ footer{
                 clear: both;
             }
             .logo{
-                background-image: url(/img/logo-short.png);
+                background-image: url("img/logo-short.png");
                 width: 36px;
                 height: 28px;
             }
@@ -859,7 +859,7 @@ footer{
                     padding-bottom: 15px;
                 }
                 .social-image{
-                    background-image: url(/img/comm_footer_social_link.png);
+                    background-image: url("img/comm_footer_social_link.png");
                     width: 140px;
                     height: 35px;
                     
