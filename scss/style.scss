@@ -324,7 +324,7 @@ main{
                         font-family: 'Montserrat', sans-serif;
 
                         .coupon{
-                            background:url("img/coupon.gif") no-repeat left center cover;
+                            background:url("../img/coupon.gif") no-repeat left center cover;
                             width: 61px;
                             height: 30px;
                         }
@@ -473,7 +473,7 @@ main{
                 .left-picture{
                     width: calc(100% / 3);
                     height:450px;
-                    background:url(/img/magazine-2.jpg) no-repeat center center/cover;
+                    background:url("../img/magazine-2.jpg") no-repeat center center/cover;
                     float: left;
                     box-sizing: border-box;
                 }
@@ -536,7 +536,7 @@ main{
                     .fuma-shoes{
                         width: 45%;
                         height:200px;
-                        background: url(/img/magazine-3.jpg) no-repeat center center/cover;
+                        background: url("img/magazine-3.jpg") no-repeat center center/cover;
                         float: left;
                         box-sizing: border-box;
                         margin-left:10px;                    
@@ -544,7 +544,7 @@ main{
                     .hand-shoes{
                         width: 45%;
                         height:200px;
-                        background: url(/img/magazine-4.jpg) no-repeat center center/cover;
+                        background: url("img/magazine-4.jpg") no-repeat center center/cover;
                         float: left;
                         box-sizing: border-box;
                         margin: 0 10px 
@@ -555,7 +555,7 @@ main{
                     height: 450px;
                     float: left;
                     box-sizing: border-box;
-                    background: url(/img/magazine-5.jpg) no-repeat center center/cover;
+                    background: url("img/magazine-5.jpg") no-repeat center center/cover;
               
                 }     
         }
@@ -592,28 +592,28 @@ main{
                         transition:all 0.3s;      
                     }
                     .short1{
-                        background:url(/img/rolling_short1.jpg) no-repeat center;
+                        background:url("img/rolling_short1.jpg") no-repeat center;
                         &:hover {
                             transform: scale(1.4);
                                 
                         }
                     }
                     .short2{
-                        background:url(/img/rolling_short2.jpg) no-repeat center;
+                        background:url("img/rolling_short2.jpg") no-repeat center;
                         overflow: hidden;
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short3{
-                        background:url(/img/rolling_short3.jpg) no-repeat center;
+                        background:url("img/rolling_short3.jpg") no-repeat center;
 
                         &:hover {            
                             transform: scale(1.4);
                         }
                     }
                     .short4{
-                        background:url(/img/rolling_short4.jpg) no-repeat center;
+                        background:url("img/rolling_short4.jpg") no-repeat center;
              
                         &:hover {
                     
@@ -621,47 +621,47 @@ main{
                         }
                     }
                     .short5{
-                        background:url(/img/rolling_short5.jpg) no-repeat center;
+                        background:url("img/rolling_short5.jpg") no-repeat center;
                     
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short6{
-                        background:url(/img/rolling_short6.jpg) no-repeat center;
+                        background:url("img/rolling_short6.jpg") no-repeat center;
                      
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short7{
-                        background:url(/img/rolling_short7.jpg) no-repeat center;
+                        background:url("img/rolling_short7.jpg") no-repeat center;
                   
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short8{
-                        background:url(/img/rolling_short8.jpg) no-repeat center;
+                        background:url("img/rolling_short8.jpg") no-repeat center;
                         &:hover {  
                             transform: scale(1.4);
                         }
                     }
                     .short9{
-                        background:url(/img/rolling_short9.jpg) no-repeat center;
+                        background:url("img/rolling_short9.jpg") no-repeat center;
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short10{
-                        background:url(/img/rolling_short10.jpg) no-repeat center;
+                        background:url("img/rolling_short10.jpg") no-repeat center;
                 
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short11{
-                        background:url(/img/rolling_short11.jpg) no-repeat center;
+                        background:url("img/rolling_short11.jpg") no-repeat center;
 
                         &:hover {
                             transform: scale(1.4);
