@@ -922,7 +922,7 @@ footer #bar {
           width: 100%;
           padding: 30px; }
         footer #bar .inner .right-footer form .arrow {
-          background-image: url(img/comm_footer_icon_family_site_arr.png);
+          background-image: url(../img/comm_footer_icon_family_site_arr.png);
           background-repeat: no-repeat;
           background-position: -18px;
           width: 18px;
@@ -939,7 +939,7 @@ footer #footer-bottom .inner {
     display: block;
     clear: both; }
   footer #footer-bottom .inner .logo {
-    background-image: url(img/logo-short.png);
+    background-image: url(../img/logo-short.png);
     width: 36px;
     height: 28px; }
   footer #footer-bottom .inner .left-info {
@@ -989,7 +989,7 @@ footer #footer-bottom .inner {
       font-weight: 600;
       padding-bottom: 15px; }
     footer #footer-bottom .inner .social .social-image {
-      background-image: url(img/comm_footer_social_link.png);
+      background-image: url(../img/comm_footer_social_link.png);
       width: 140px;
       height: 35px; }
 
