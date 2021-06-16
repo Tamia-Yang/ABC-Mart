@@ -675,7 +675,7 @@ main #best-brand {
         main #best-brand .inner .brand-list .wrap .new-brand-2 {
           background: url("img/best-brand-2.jpg") no-repeat center center/cover; }
         main #best-brand .inner .brand-list .wrap .new-brand-3 {
-          background: url("img/best-brand-3.jpg") no-repeat center center/cover; }
+          background: url(../img/best-brand-3.jpg) no-repeat center center/cover; }
         main #best-brand .inner .brand-list .wrap .new-brand-4 {
           background: url("img/best-brand-4.jpg") no-repeat center center/cover; }
 main #display::after {

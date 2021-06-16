@@ -120,7 +120,7 @@ header{
                                 display: block;
                                 width: 30px;
                                 height: 31px;
-                               background:url("header-righticon.png") no-repeat left center;
+                               background:url("img/comm_header_util_link.png") no-repeat left center;
                         
                             }
                         }
@@ -129,7 +129,7 @@ header{
                                 display: block;
                                 width:25px;
                                 height: 31px;
-                               background:url("img/header-righticon.png") no-repeat right center;
+                               background:url("img/comm_header_util_link.png") no-repeat right center;
                                  
                             }
                         }    
@@ -223,7 +223,7 @@ main{
                 .swiper-button-next{
                    right: 15%;
                    background:black;
-                   background-image: url("../img/comm_layer_banner_arrow.png");
+                   background-image: url("img/comm_layer_banner_arrow.png");
                    background-position:right;
                    background-size: cover;
                    width: 60px;
@@ -592,28 +592,28 @@ main{
                         transition:all 0.3s;      
                     }
                     .short1{
-                        background:url("img/rolling_short1.jpg") no-repeat center;
+                        background:url(../img/rolling_short1.jpg) no-repeat center;
                         &:hover {
                             transform: scale(1.4);
                                 
                         }
                     }
                     .short2{
-                        background:url("img/rolling_short2.jpg") no-repeat center;
+                        background:url(../img/rolling_short2.jpg) no-repeat center;
                         overflow: hidden;
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short3{
-                        background:url("img/rolling_short3.jpg") no-repeat center;
+                        background:url(../img/rolling_short3.jpg) no-repeat center;
 
                         &:hover {            
                             transform: scale(1.4);
                         }
                     }
                     .short4{
-                        background:url("img/rolling_short4.jpg") no-repeat center;
+                        background:url(../img/rolling_short4.jpg) no-repeat center;
              
                         &:hover {
                     
@@ -621,47 +621,47 @@ main{
                         }
                     }
                     .short5{
-                        background:url("img/rolling_short5.jpg") no-repeat center;
+                        background:url(../img/rolling_short5.jpg) no-repeat center;
                     
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short6{
-                        background:url("img/rolling_short6.jpg") no-repeat center;
+                        background:url(../img/rolling_short6.jpg) no-repeat center;
                      
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short7{
-                        background:url("img/rolling_short7.jpg") no-repeat center;
+                        background:url(../img/rolling_short7.jpg) no-repeat center;
                   
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short8{
-                        background:url("img/rolling_short8.jpg") no-repeat center;
+                        background:url(../img/rolling_short8.jpg) no-repeat center;
                         &:hover {  
                             transform: scale(1.4);
                         }
                     }
                     .short9{
-                        background:url("img/rolling_short9.jpg") no-repeat center;
+                        background:url(../img/rolling_short9.jpg) no-repeat center;
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short10{
-                        background:url("img/rolling_short10.jpg") no-repeat center;
+                        background:url(../img/rolling_short10.jpg) no-repeat center;
                 
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short11{
-                        background:url("img/rolling_short11.jpg") no-repeat center;
+                        background:url(../img/rolling_short11.jpg) no-repeat center;
 
                         &:hover {
                             transform: scale(1.4);
