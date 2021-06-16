@@ -508,12 +508,12 @@ header .header-bottom {
           display: block;
           width: 30px;
           height: 31px;
-          background: url("img/comm_header_util_link.png") no-repeat left center; }
+          background: url(img/comm_header_util_link.png) no-repeat left center; }
         header .header-bottom .inner .logo .myinfo li:nth-child(2) a {
           display: block;
           width: 25px;
           height: 31px;
-          background: url("img/comm_header_util_link.png") no-repeat right center; }
+          background: url(img/comm_header_util_link.png) no-repeat right center; }
     header .header-bottom .inner .search-form select {
       border: none;
       width: 126px;
@@ -526,13 +526,13 @@ header .header-bottom {
         font-size: 15px;
         padding-left: 10px; }
     header .header-bottom .inner .search-form .smart_search {
-      background: url("img/comm_header_icon_smart.png") no-repeat center center/cover;
+      background: url(img/comm_header_icon_smart.png) no-repeat center center/cover;
       width: 37px;
       height: 42px;
       vertical-align: middle;
       border: none; }
     header .header-bottom .inner .search-form .total_search {
-      background: url("img/comm_header_icon_search.png") no-repeat center center/cover;
+      background: url(img/comm_header_icon_search.png) no-repeat center center/cover;
       width: 23px;
       height: 22px;
       border: none;
@@ -567,7 +567,7 @@ main #visual .swiper-container {
   main #visual .swiper-container .swiper-button-next {
     right: 15%;
     background: black;
-    background-image: url("img/comm_layer_banner_arrow.png");
+    background-image: url(img/comm_layer_banner_arrow.png);
     background-position: right;
     background-size: cover;
     width: 60px;
@@ -575,7 +575,7 @@ main #visual .swiper-container {
   main #visual .swiper-container .swiper-button-prev {
     left: 15%;
     background: black;
-    background-image: url("img/comm_layer_banner_arrow.png");
+    background-image: url(img/comm_layer_banner_arrow.png);
     width: 60px;
     height: 60px;
     background-position: left; }
@@ -583,21 +583,21 @@ main #visual .swiper-container {
     width: 100%;
     height: 100%; }
     main #visual .swiper-container .swiper-wrapper .s1 {
-      background: url("img/sw1.jpg") no-repeat center center/cover; }
+      background: url(img/sw1.jpg) no-repeat center center/cover; }
     main #visual .swiper-container .swiper-wrapper .s2 {
-      background: url("img/sw2.jpg") no-repeat center center/cover; }
+      background: url(img/sw2.jpg) no-repeat center center/cover; }
     main #visual .swiper-container .swiper-wrapper .s3 {
-      background: url("img/sw3.jpg") no-repeat center center/cover; }
+      background: url(img/sw3.jpg) no-repeat center center/cover; }
     main #visual .swiper-container .swiper-wrapper .s4 {
-      background: url("img/sw4.jpg") no-repeat center center/cover; }
+      background: url(img/sw4.jpg) no-repeat center center/cover; }
     main #visual .swiper-container .swiper-wrapper .s5 {
-      background: url("img/sw5.jpg") no-repeat center center/cover; }
+      background: url(img/sw5.jpg) no-repeat center center/cover; }
     main #visual .swiper-container .swiper-wrapper .s6 {
-      background: url("img/sw6.jpg") no-repeat center center/cover; }
+      background: url(img/sw6.jpg) no-repeat center center/cover; }
     main #visual .swiper-container .swiper-wrapper .s7 {
-      background: url("img/sw7.jpg") no-repeat center center/cover; }
+      background: url(img/sw7.jpg) no-repeat center center/cover; }
     main #visual .swiper-container .swiper-wrapper .s8 {
-      background: url("img/sw8.jpg") no-repeat center center/cover; }
+      background: url(img/sw8.jpg) no-repeat center center/cover; }
 main #best-brand {
   position: relative; }
   main #best-brand .inner {
@@ -634,7 +634,7 @@ main #best-brand {
           color: #444;
           font-family: 'Montserrat', sans-serif; }
           main #best-brand .inner .brand-list .wrap .text .coupon {
-            background: url("img/coupon.gif") no-repeat left center cover;
+            background: url(../img/coupon.gif) no-repeat left center cover;
             width: 61px;
             height: 30px; }
           main #best-brand .inner .brand-list .wrap .text span {
@@ -671,13 +671,13 @@ main #best-brand {
           width: 100%;
           height: 285px; }
         main #best-brand .inner .brand-list .wrap .new-brand-1 {
-          background: url("img/best-brand-1.jpg") no-repeat center center/cover; }
+          background: url(../img/best-brand-1.jpg) no-repeat center center/cover; }
         main #best-brand .inner .brand-list .wrap .new-brand-2 {
-          background: url("img/best-brand-2.jpg") no-repeat center center/cover; }
+          background: url(../img/best-brand-2.jpg) no-repeat center center/cover; }
         main #best-brand .inner .brand-list .wrap .new-brand-3 {
           background: url(../img/best-brand-3.jpg) no-repeat center center/cover; }
         main #best-brand .inner .brand-list .wrap .new-brand-4 {
-          background: url("img/best-brand-4.jpg") no-repeat center center/cover; }
+          background: url(../img/best-brand-4.jpg) no-repeat center center/cover; }
 main #display::after {
   content: '';
   display: block;
@@ -731,7 +731,7 @@ main #magazine {
     main #magazine .inner .left-picture {
       width: calc(100% / 3);
       height: 450px;
-      background: url("img/magazine-2.jpg") no-repeat center center/cover;
+      background: url(../img/magazine-2.jpg) no-repeat center center/cover;
       float: left;
       box-sizing: border-box; }
     main #magazine .inner .center-picture {
@@ -775,14 +775,14 @@ main #magazine {
       main #magazine .inner .center-picture .fuma-shoes {
         width: 45%;
         height: 200px;
-        background: url("img/magazine-3.jpg") no-repeat center center/cover;
+        background: url(../img/magazine-3.jpg) no-repeat center center/cover;
         float: left;
         box-sizing: border-box;
         margin-left: 10px; }
       main #magazine .inner .center-picture .hand-shoes {
         width: 45%;
         height: 200px;
-        background: url("img/magazine-4.jpg") no-repeat center center/cover;
+        background: url(../img/magazine-4.jpg) no-repeat center center/cover;
         float: left;
         box-sizing: border-box;
         margin: 0 10px; }
@@ -791,7 +791,7 @@ main #magazine {
       height: 450px;
       float: left;
       box-sizing: border-box;
-      background: url("img/magazine-5.jpg") no-repeat center center/cover; }
+      background: url(../mg/magazine-5.jpg) no-repeat center center/cover; }
 main #video .container {
   position: relative;
   left: 35%;
@@ -816,48 +816,48 @@ main #sns {
           overflow: hidden;
           transition: all 0.3s; }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short1 {
-          background: url("img/rolling_short1.jpg") no-repeat center; }
+          background: url(../img/rolling_short1.jpg) no-repeat center; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short1:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short2 {
-          background: url("img/rolling_short2.jpg") no-repeat center;
+          background: url(../img/rolling_short2.jpg) no-repeat center;
           overflow: hidden; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short2:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short3 {
-          background: url("img/rolling_short3.jpg") no-repeat center; }
+          background: url(../img/rolling_short3.jpg) no-repeat center; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short3:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short4 {
-          background: url("img/rolling_short4.jpg") no-repeat center; }
+          background: url(../img/rolling_short4.jpg) no-repeat center; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short4:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short5 {
-          background: url("img/rolling_short5.jpg") no-repeat center; }
+          background: url(../img/rolling_short5.jpg) no-repeat center; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short5:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short6 {
-          background: url("img/rolling_short6.jpg") no-repeat center; }
+          background: url(../img/rolling_short6.jpg) no-repeat center; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short6:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short7 {
-          background: url("img/rolling_short7.jpg") no-repeat center; }
+          background: url(../img/rolling_short7.jpg) no-repeat center; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short7:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short8 {
-          background: url("img/rolling_short8.jpg") no-repeat center; }
+          background: url(../img/rolling_short8.jpg) no-repeat center; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short8:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short9 {
-          background: url("img/rolling_short9.jpg") no-repeat center; }
+          background: url(../img/rolling_short9.jpg) no-repeat center; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short9:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short10 {
-          background: url("img/rolling_short10.jpg") no-repeat center; }
+          background: url(../img/rolling_short10.jpg) no-repeat center; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short10:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short11 {
-          background: url("img/rolling_short11.jpg") no-repeat center; }
+          background: url(../img/rolling_short11.jpg) no-repeat center; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short11:hover {
             transform: scale(1.4); }
 
