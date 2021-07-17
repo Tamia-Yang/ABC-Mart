@@ -31,6 +31,13 @@
                            color: white;
                            background-color: #111;
                            margin-right: 30px;
+                           cursor: pointer;
+                           transition:all 0.3s;
+
+                           &:hover{
+                               background-color: #fff;
+                               color: #333;
+                           }
                        }
                         select{
                             width: 190px;

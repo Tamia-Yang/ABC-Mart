@@ -342,7 +342,12 @@ input, a, button {
       #map-wrap .inner .wrap form .btn-search {
         color: white;
         background-color: #111;
-        margin-right: 30px; }
+        margin-right: 30px;
+        cursor: pointer;
+        transition: all 0.3s; }
+        #map-wrap .inner .wrap form .btn-search:hover {
+          background-color: #fff;
+          color: #333; }
       #map-wrap .inner .wrap form select {
         width: 190px;
         height: 35px;
@@ -517,11 +522,12 @@ header .header-bottom {
     header .header-bottom .inner .search-form select {
       border: none;
       width: 126px;
-      height: 42px;
+      height: 30px;
       padding: 0 18px 0 11px; }
     header .header-bottom .inner .search-form input[type="search"] {
       border: none;
-      width: 270px; }
+      width: 270px;
+      height: 30px; }
       header .header-bottom .inner .search-form input[type="search"]::placeholder {
         font-size: 15px;
         padding-left: 10px; }
@@ -530,13 +536,15 @@ header .header-bottom {
       width: 37px;
       height: 42px;
       vertical-align: middle;
-      border: none; }
+      border: none;
+      cursor: pointer; }
     header .header-bottom .inner .search-form .total_search {
       background: url(../img/comm_header_icon_search.png) no-repeat center center/cover;
       width: 23px;
       height: 22px;
       border: none;
-      vertical-align: middle; }
+      vertical-align: middle;
+      cursor: pointer; }
 
 main #menu-list {
   width: 100%;
@@ -760,7 +768,8 @@ main #magazine {
           color: white;
           line-height: 40px;
           margin-top: 32px;
-          text-align: center; }
+          text-align: center;
+          transition: all 0.5s; }
           main #magazine .inner .center-picture .textBox .view-more a {
             color: white;
             padding: 20px 110px; }
@@ -791,7 +800,7 @@ main #magazine {
       height: 450px;
       float: left;
       box-sizing: border-box;
-      background: url(../mg/magazine-5.jpg) no-repeat center center/cover; }
+      background: url(../img/magazine-5.jpg) no-repeat center center/cover; }
 main #video .container {
   position: relative;
   left: 35%;
@@ -813,51 +822,52 @@ main #sns {
         height: 100%; }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .swiper-slide {
           height: 285px;
+          width: 285px;
           overflow: hidden;
           transition: all 0.3s; }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short1 {
-          background: url(../img/rolling_short1.jpg) no-repeat center; }
+          background: url(../img/rolling_short1.jpg) no-repeat center center/cover; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short1:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short2 {
-          background: url(../img/rolling_short2.jpg) no-repeat center;
+          background: url(../img/rolling_short2.jpg) no-repeat center center/cover;
           overflow: hidden; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short2:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short3 {
-          background: url(../img/rolling_short3.jpg) no-repeat center; }
+          background: url(../img/rolling_short3.jpg) no-repeat center center/cover; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short3:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short4 {
-          background: url(../img/rolling_short4.jpg) no-repeat center; }
+          background: url(../img/rolling_short4.jpg) no-repeat center center/cover; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short4:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short5 {
-          background: url(../img/rolling_short5.jpg) no-repeat center; }
+          background: url(../img/rolling_short5.jpg) no-repeat center center/cover; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short5:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short6 {
-          background: url(../img/rolling_short6.jpg) no-repeat center; }
+          background: url(../img/rolling_short6.jpg) no-repeat center center/cover; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short6:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short7 {
-          background: url(../img/rolling_short7.jpg) no-repeat center; }
+          background: url(../img/rolling_short7.jpg) no-repeat center center/cover; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short7:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short8 {
-          background: url(../img/rolling_short8.jpg) no-repeat center; }
+          background: url(../img/rolling_short8.jpg) no-repeat center center/cover; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short8:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short9 {
-          background: url(../img/rolling_short9.jpg) no-repeat center; }
+          background: url(../img/rolling_short9.jpg) no-repeat center center/cover; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short9:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short10 {
-          background: url(../img/rolling_short10.jpg) no-repeat center; }
+          background: url(../img/rolling_short10.jpg) no-repeat center center/cover; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short10:hover {
             transform: scale(1.4); }
         main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short11 {
-          background: url(../img/rolling_short11.jpg) no-repeat center; }
+          background: url(../img/rolling_short11.jpg) no-repeat center center/cover; }
           main #sns #rolling-short-banner .swiper-container.short .swiper-wrapper .short11:hover {
             transform: scale(1.4); }
 

@@ -144,13 +144,14 @@ header{
             select{
                 border: none;
                 width: 126px;
-                height: 42px;
+                height: 30px;
                 padding: 0 18px 0 11px;
                 
             }
             input[type="search"]{
                 border: none;
                width: 270px;
+               height:30px;
                &::placeholder{
                 font-size: 15px;
                 padding-left:10px;
@@ -163,14 +164,15 @@ header{
                 height: 42px;
                 vertical-align: middle;
                 border: none;
-
+                cursor: pointer; 
                 }
             .total_search{
                 background:url(../img/comm_header_icon_search.png) no-repeat center center/cover;
                 width: 23px;
                 height: 22px;
                 border: none;
-                vertical-align: middle;   
+                vertical-align: middle;  
+                cursor: pointer; 
             
             }
                  
@@ -510,6 +512,7 @@ main{
                             line-height:40px;
                             margin-top: 32px;
                             text-align: center;
+                            transition:all 0.5s;
                                 a{
                                     color: white;
                                     padding: 20px 110px;
@@ -555,7 +558,7 @@ main{
                     height: 450px;
                     float: left;
                     box-sizing: border-box;
-                    background: url(../mg/magazine-5.jpg) no-repeat center center/cover;
+                    background: url(../img/magazine-5.jpg) no-repeat center center/cover;
               
                 }     
         }
@@ -588,32 +591,33 @@ main{
 
                     .swiper-slide{
                         height: 285px;
+                        width: 285px;
                         overflow: hidden;
                         transition:all 0.3s;      
                     }
                     .short1{
-                        background:url(../img/rolling_short1.jpg) no-repeat center;
+                        background:url(../img/rolling_short1.jpg) no-repeat center center/cover;
                         &:hover {
                             transform: scale(1.4);
                                 
                         }
                     }
                     .short2{
-                        background:url(../img/rolling_short2.jpg) no-repeat center;
+                        background:url(../img/rolling_short2.jpg) no-repeat center center/cover;
                         overflow: hidden;
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short3{
-                        background:url(../img/rolling_short3.jpg) no-repeat center;
+                        background:url(../img/rolling_short3.jpg) no-repeat center center/cover;
 
                         &:hover {            
                             transform: scale(1.4);
                         }
                     }
                     .short4{
-                        background:url(../img/rolling_short4.jpg) no-repeat center;
+                        background:url(../img/rolling_short4.jpg) no-repeat center center/cover;
              
                         &:hover {
                     
@@ -621,47 +625,47 @@ main{
                         }
                     }
                     .short5{
-                        background:url(../img/rolling_short5.jpg) no-repeat center;
+                        background:url(../img/rolling_short5.jpg) no-repeat center center/cover;
                     
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short6{
-                        background:url(../img/rolling_short6.jpg) no-repeat center;
+                        background:url(../img/rolling_short6.jpg) no-repeat center center/cover;
                      
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short7{
-                        background:url(../img/rolling_short7.jpg) no-repeat center;
+                        background:url(../img/rolling_short7.jpg)no-repeat center center/cover;
                   
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short8{
-                        background:url(../img/rolling_short8.jpg) no-repeat center;
+                        background:url(../img/rolling_short8.jpg) no-repeat center center/cover;
                         &:hover {  
                             transform: scale(1.4);
                         }
                     }
                     .short9{
-                        background:url(../img/rolling_short9.jpg) no-repeat center;
+                        background:url(../img/rolling_short9.jpg) no-repeat center center/cover;
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short10{
-                        background:url(../img/rolling_short10.jpg) no-repeat center;
+                        background:url(../img/rolling_short10.jpg)no-repeat center center/cover;
                 
                         &:hover {
                             transform: scale(1.4);
                         }
                     }
                     .short11{
-                        background:url(../img/rolling_short11.jpg) no-repeat center;
+                        background:url(../img/rolling_short11.jpg)no-repeat center center/cover;
 
                         &:hover {
                             transform: scale(1.4);
